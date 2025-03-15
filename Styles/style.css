@@ -411,9 +411,14 @@ footer .wget-logo img {
   font-size: 20px;
   border: 1px solid #c9c1b9;
   height: auto !important;
-  transition: background-color 0.3s ease;
   padding-right: 7px;
 }
+@media screen and (max-width: 992px) {
+  #cart {
+    margin-right: 40px !important;
+  } 
+}
+
 /* --------------------------- */
 /* Cart Style page */
 
