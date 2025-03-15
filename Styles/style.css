@@ -336,7 +336,7 @@ footer .wget-logo img {
   padding-top: 4px;
 }
 /* ------------------------------- */
-
+/* Menu Page */
 /* Product1 */
 #Product1 {
   margin: 20px 0px;
@@ -350,8 +350,6 @@ footer .wget-logo img {
 #Product1 .pro {
   width: 23%;
   min-width: 250px;
-  /* padding: 10px 12px; */
-  /* border: 1px solid #684624; */
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   transition: 0.2s ease;
@@ -390,15 +388,12 @@ footer .wget-logo img {
 }
 #Product1 .pro .desc h5 {
   padding-top: 20px;
-  /* color: green; */
   font-size: 13px;
 }
-#Product1 .pro-container #cart,
-#cart {
+#Product1 .pro-container #cart {
   width: 40px;
   border-radius: 50px;
   line-height: 40px;
-  /* background-color: #e8f6ea; */
   color: #684624;
   font-size: 20px;
   border: 1px solid #c9c1b9;
@@ -407,6 +402,19 @@ footer .wget-logo img {
   right: 190px;
   height: auto !important;
 }
+#cart {
+  width: 40px;
+  border-radius: 50px;
+  background-color: white !important;
+  line-height: 40px;
+  color: #684624;
+  font-size: 20px;
+  border: 1px solid #c9c1b9;
+  height: auto !important;
+  transition: background-color 0.3s ease;
+  padding-right: 7px;
+}
+/* --------------------------- */
 /* Cart Style page */
 
 .Cart h2 {
@@ -467,7 +475,7 @@ footer .wget-logo img {
   margin-top: 20px;
 }
 /* ---------------------------- */
-
+/* Loading */
 .loading_slide {
   position: fixed;
   top: 0;
@@ -494,20 +502,20 @@ footer .wget-logo img {
     background-size: 110%;
   }
 }
-
+/* btn */
 #btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 60px;
   height: 60px;
-  background-color: #d67b3b; /* لون برتقالي */
-  border: 3px solid white; /* حدود بيضاء */
-  border-radius: 50%; /* شكل دائري */
-  display: none; /* يبدأ مخفي */
+  background-color: #d67b3b;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: none;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: transform 0.3s ease;
   font-size: 23px !important;
@@ -518,9 +526,9 @@ footer .wget-logo img {
 }
 
 #btn:hover {
-  transform: scale(1.1); /* تكبير عند التمرير */
+  transform: scale(1.1);
 }
 
 #btn:active {
-  transform: scale(0.95); /* تصغير عند الضغط */
+  transform: scale(0.95);
 }
